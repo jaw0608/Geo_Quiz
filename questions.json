@@ -116,10 +116,9 @@
     "answers": [
       "There are visible grains; cooled slowly",
       "Grains are too small to see without magnification; cooled quickly",
-      "Larger grains surrounded by a finer-grained groundmass; cooled slowly first, then more quickly",
-      "Volcanic Ash"
+      "Larger grains surrounded by a finer-grained groundmass; cooled slowly first, then more quickly"
     ],
-    "correct": [2,3],
+    "correct": [2],
     "chapter": "2"
   }
 

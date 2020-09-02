@@ -16,11 +16,12 @@ $(function(){
     chapters.sort()
     for (var i=0; i<chapters.length; i++){
       var box = $(`<input type="checkbox" value=${chapters[i]} name="Chap${chapters[i]}"> </input>`);
-      var label = $(`<label for="Chap${chapters[i]}"</label>`)
+      var label = $(`<label for="Chap${chapters[i]}" class="checkbox"</label>`)
       label.html(chapters[i])
       box.html(chapters[i])
-      $("#chapters").append(box);
+      label.append(box);
       $("#chapters").append(label);
+      $("#chapters").append($('<br/>'))
     }
     console.log(questions);
   }).then(function(){
@@ -72,7 +73,11 @@ function newQuestion(){
       break;
     }
   }
-  if (noNew) $("#answers").html('No more questions! Refresh to restart')
+  if (noNew) {
+      $("#answers").html('No more questions! Refresh to restart')
+      $("#question").html('All questions completed!')
+      $("#next").css('visibility','hidden')
+  }
 }
 
 function selectQuestion(rand){
@@ -85,8 +90,9 @@ function selectQuestion(rand){
     ans.html(entry.answers[i]);
     if (entry.correct.includes(i)){
       ans.click(function(){
-        $( this ).css("color", "green");
         correct++
+        $(this).unbind("click");
+        $( this ).css("background-color", "#00ff44");
         if (neededCorrect==correct){
           $("#next").css('visibility','visible')
         }
@@ -94,7 +100,7 @@ function selectQuestion(rand){
     }
     else {
       ans.click(function(){
-        $( this ).css("color", "red");
+        $( this ).css("background-color", "#ff4040");
       });
     }
     $("#answers").append(ans);
