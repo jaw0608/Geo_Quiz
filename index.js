@@ -2,6 +2,8 @@ var done = new Set()
 var questions = []
 var chapters = []
 var selectedQuestions
+var neededCorrect = 0
+var correct = 0
 $(function(){
 
   $.getJSON( "questions.json", function(data) {
@@ -65,22 +67,29 @@ function newQuestion(){
     var rand = Math.floor(selectedQuestions.length * Math.random())
     if (done.has(rand)) continue;
     else {
+      $("#next").css('visibility','hidden')
       selectQuestion(rand)
       break;
     }
   }
-  if (noNew) $("#answers").html('No more questions!')
+  if (noNew) $("#answers").html('No more questions! Refresh to restart')
 }
 
 function selectQuestion(rand){
   var entry = selectedQuestions[rand];
   $("#question").html(entry.question)
+  neededCorrect = entry.correct.length;
+  correct = 0;
   for (var i=0; i < entry.answers.length; i++){
     var ans = $("<h4></h4>");
     ans.html(entry.answers[i]);
     if (entry.correct.includes(i)){
       ans.click(function(){
         $( this ).css("color", "green");
+        correct++
+        if (neededCorrect==correct){
+          $("#next").css('visibility','visible')
+        }
       });
     }
     else {
