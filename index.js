@@ -21,7 +21,6 @@ $(function(){
       box.html(chapters[i])
       label.append(box);
       $("#chapters").append(label);
-      $("#chapters").append($('<br/>'))
     }
     console.log(questions);
   }).then(function(){
@@ -90,7 +89,7 @@ function selectQuestion(rand){
   neededCorrect = entry.correct.length;
   if (entry.correct.length>1){
     $("#multiple").css('visibility','visible');
-    $("#multiple").css('display','initial');
+    $("#multiple").css('display','block');
   }
   else {
     $("#multiple").css('visibility','hidden');

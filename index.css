@@ -36,11 +36,6 @@ h1 {
   font-size: 1.5vmax;
 }
 
-head {
-  width: 0;
-  height: 0;
-}
-
 h4 {
   display: table;
   font-size: 1.5vmax;
@@ -48,6 +43,9 @@ h4 {
   padding: 0.5vmax;
   background-color:white;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 
 
 }
@@ -57,16 +55,14 @@ body {
 }
 
 h3 {
-  margin-top: -1%;
   padding: 0;
-  font-size: 1vmax;
+  font-size: 1.25vmax;
   visibility: hidden;
   display: none;
-
-
 }
 
-#container {
-  margin-left: 3%;
-  margin-right: 3%;
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
