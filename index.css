@@ -8,6 +8,8 @@ button {
   display: inline-block;
   font-size: 5vmax;
   margin-top: 0.25vmax;
+  margin-right: 0.5vmax;
+  margin-left: 0.5vmax;
 }
 
 .checkbox {
@@ -15,6 +17,8 @@ button {
   vertical-align: top;
   position: relative;
   font-size: 2vmax;
+  margin-right: 0.5vmax;
+  margin-left: 0.5vmax;
 }
 
 .checkbox input{
@@ -23,6 +27,8 @@ button {
   top: 0;
   width: 2vmax;
   height: 2vmax;
+  margin-right: 0.5vmax;
+  margin-left: 0.5vmax;
 }
 
 h1 {
@@ -30,6 +36,8 @@ h1 {
   padding-top: 0;
   border-top: 0;
   font-size: 4vmax;
+  margin-right: 0.5vmax;
+  margin-left: 0.5vmax;
 }
 
 head {
@@ -44,6 +52,8 @@ h4 {
   padding: 0.5vmax;
   background-color:white;
   cursor: pointer;
+  margin-right: 0.5vmax;
+  margin-left: 0.5vmax;
 }
 
 body {
@@ -56,4 +66,6 @@ h3 {
   font-size: 1.5vmax;
   visibility: hidden;
   display: none;
+  margin-right: 0.5vmax;
+  margin-left: 0.5vmax;
 }
