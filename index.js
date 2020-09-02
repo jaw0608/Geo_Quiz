@@ -74,16 +74,28 @@ function newQuestion(){
     }
   }
   if (noNew) {
-      $("#answers").html('No more questions! Refresh to restart')
+      $("#answers").html('<h4>No more questions! Refresh to restart</h4>')
       $("#question").html('All questions completed!')
       $("#next").css('visibility','hidden')
+      $("#multiple").css('display','none')
   }
 }
 
 function selectQuestion(rand){
   var entry = selectedQuestions[rand];
   $("#question").html(entry.question)
+  $([document.documentElement, document.body]).animate({
+      scrollTop: $("#question").offset().top
+  }, 0);
   neededCorrect = entry.correct.length;
+  if (entry.correct.length>1){
+    $("#multiple").css('visibility','visible');
+    $("#multiple").css('display','initial');
+  }
+  else {
+    $("#multiple").css('visibility','hidden');
+    $("#multiple").css('display','none');
+  }
   correct = 0;
   for (var i=0; i < entry.answers.length; i++){
     var ans = $("<h4></h4>");
@@ -95,6 +107,9 @@ function selectQuestion(rand){
         $( this ).css("background-color", "#00ff44");
         if (neededCorrect==correct){
           $("#next").css('visibility','visible')
+          $([document.documentElement, document.body]).animate({
+              scrollTop: $("#next").offset().top
+          }, 300);
         }
       });
     }

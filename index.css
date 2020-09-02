@@ -2,25 +2,58 @@ button {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 2vmax 2vmax;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 5vmax;
+  margin-top: 0.25vmax;
 }
 
 .checkbox {
   display: inline-block;
   vertical-align: top;
   position: relative;
+  font-size: 2vmax;
 }
 
 .checkbox input{
   position: absolute;
-  left: 10px;
+  left: 100%;
   top: 0;
+  width: 2vmax;
+  height: 2vmax;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 0;
+  border-top: 0;
+  font-size: 4vmax;
+}
+
+head {
+  width: 0;
+  height: 0;
 }
 
 h4 {
   display: table;
+  font-size: 3vmax;
+  border-radius: 10px;
+  padding: 0.5vmax;
+  background-color:white;
+  cursor: pointer;
+}
+
+body {
+    background-color:#87b3fa;
+}
+
+h3 {
+  margin-top: -1%;
+  padding: 0;
+  font-size: 1.5vmax;
+  visibility: hidden;
+  display: none;
 }
