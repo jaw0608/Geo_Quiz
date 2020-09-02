@@ -1,0 +1,136 @@
+[
+  {
+    "question": "What is the Mass Number?",
+    "answers": [
+      "Sum of Electrons and Nuetrons",
+      "Sum of Electrons and Protons",
+      "Sum of Electrons, Neutrons, and Protons",
+      "Sum of Neutrons and Protons"
+    ],
+    "correct": [3],
+    "chapter": "2"
+  },
+
+  {
+    "question": "Ionic Bonding: _______; Covalent Bonding: _______",
+    "answers": [
+      "Electrons shared between atoms; Electrons transferred between atoms",
+      "Electrons transferred between atoms; Electrons shared between atoms"
+    ],
+    "correct": [1],
+    "chapter": "2"
+  },
+
+  {
+    "question": "Crystalline means:",
+    "answers": [
+      "Shaped in a smooth, glassy form",
+      "Minerals have an ordered internal arrangment of their atoms",
+      "A narrowly defined chemical composition"
+    ],
+    "correct": [1],
+    "chapter": "2"
+  },
+  {
+    "question": "Silicates are Minerals containing silica, which is a combination of these elements:",
+    "answers": [
+      "Silicon (Si)",
+      "Carbon (C)",
+      "Oxygen (O)",
+      "Hydrogen (H)"
+    ],
+    "correct": [0,2],
+    "chapter": "2"
+  },
+  {
+    "question": "How much of the Earth's crust is silicates?",
+    "answers": [
+      "75%",
+      "80%",
+      "85%",
+      "90%",
+      "95%"
+    ],
+    "correct": [4],
+    "chapter": "2"
+  },
+  {
+    "question": "Carbonates are minerals with carbonate, which is:",
+    "answers": [
+      "CO",
+      "CO3",
+      "(CO)-2",
+      "(C03)-2"
+    ],
+    "correct": [3],
+    "chapter": "2"
+  },
+  {
+    "question": "______ rocks cool and solidiy from molten materials (lava/magma); _______rocks form by sediment lithification; ______ rocks are rocks changed due to temperature (without melting), pressure, and other factors",
+    "answers": [
+      "Metamorphic, Sedimentary, Igneous",
+      "Sedimentary, Metamorphic, Igneous",
+      "Igneous, Sedimentary, Metamorphic",
+      "Sedimentary, Igneous, Metamorphic"
+    ],
+    "correct": [2],
+    "chapter": "2"
+  },
+
+  {
+    "question": "______ is when Igneous rocks are cooled and crysallize in deep magmas",
+    "answers": [
+      "Intrusive",
+      "Extrusive",
+      "Lithification"
+    ],
+    "correct": [0],
+    "chapter": "2"
+  },
+
+  {
+    "question": "______ is when Igneous rocks are solidified from lava",
+    "answers": [
+      "Intrusive",
+      "Extrusive",
+      "Lithification"
+    ],
+    "correct": [1],
+    "chapter": "2"
+  },
+
+  {
+    "question": "What are pyroclastic/fragmental materials?",
+    "answers": [
+      "Molten Material",
+      "Molten Material at the Surface",
+      "Magmatic Particles",
+      "Volcanic Ash"
+    ],
+    "correct": [2,3],
+    "chapter": "2"
+  },
+
+  {
+    "question": "Phanertic texture means____",
+    "answers": [
+      "There are visible grains; cooled slowly",
+      "Grains are too small to see without magnification; cooled quickly",
+      "Larger grains surrounded by a finer-grained groundmass; cooled slowly first, then more quickly",
+      "Volcanic Ash"
+    ],
+    "correct": [2,3],
+    "chapter": "2"
+  }
+
+
+
+
+
+
+
+
+
+
+
+]
