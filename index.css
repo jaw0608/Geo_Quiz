@@ -2,42 +2,38 @@ button {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 2vmax 2vmax;
+  padding: 1.5vmax 1.5vmax;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 5vmax;
+  font-size: 3vmax;
   margin-top: 0.25vmax;
-  margin-right: 2vmax;
-  margin-left: 2vmax;
+
+
 }
 
 .checkbox {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  font-size: 2vmax;
-  margin-right: 2vmax;
-  margin-left: 2vmax;
+  font-size: 1.5vmax;
+
+
 }
 
 .checkbox input{
   position: absolute;
   left: 100%;
   top: 0;
-  width: 2vmax;
-  height: 2vmax;
-  margin-right: 2vmax;
-  margin-left: 2vmax;
+  width: 1.5vmax;
+  height: 1.5vmax;
 }
 
 h1 {
   margin: 0;
   padding-top: 0;
   border-top: 0;
-  font-size: 4vmax;
-  margin-right: 2vmax;
-  margin-left: 2vmax;
+  font-size: 1.5vmax;
 }
 
 head {
@@ -47,13 +43,13 @@ head {
 
 h4 {
   display: table;
-  font-size: 3vmax;
+  font-size: 1.5vmax;
   border-radius: 10px;
   padding: 0.5vmax;
   background-color:white;
   cursor: pointer;
-  margin-right: 2vmax;
-  margin-left: 2vmax;
+
+
 }
 
 body {
@@ -63,9 +59,14 @@ body {
 h3 {
   margin-top: -1%;
   padding: 0;
-  font-size: 1.5vmax;
+  font-size: 1vmax;
   visibility: hidden;
   display: none;
-  margin-right: 2vmax;
-  margin-left: 2vmax;
+
+
+}
+
+#container {
+  margin-left: 3%;
+  margin-right: 3%;
 }
