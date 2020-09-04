@@ -15,7 +15,7 @@ $(function(){
     }
     chapters.sort()
     for (var i=0; i<chapters.length; i++){
-      var box = $(`<input type="checkbox" class = "checkIn" value=${chapters[i]} name="Chap${chapters[i]}"> </input>`);
+      var box = $(`<input type="checkbox" class = "checkIn" value="${chapters[i]}" name="Chap${chapters[i]}"> </input>`);
       var label = $(`<label for="Chap${chapters[i]}" class="checkbox"</label>`)
       var div = $("<div class=\"checkboxdiv\"/>")
       label.html(chapters[i])
@@ -24,11 +24,10 @@ $(function(){
       div.append(box);
       $("#chapters").append(div);
     }
-    console.log(questions);
   }).then(function(){
     $("#next").click(function(){
         if (selectedQuestions==undefined){
-          var selectedElements = $('#chapters').children('input')
+          var selectedElements = $('#chapters').find('input')
           selectedQuestions = []
           selectedChapters = []
           for (var i=0; i<selectedElements.length; i++){
@@ -79,12 +78,16 @@ function newQuestion(){
       $("#question").html('All questions completed!')
       $("#next").css('visibility','hidden')
       $("#multiple").css('display','none')
+      $("#current_chapter").css('display','none');
   }
 }
 
 function selectQuestion(rand){
   var entry = selectedQuestions[rand];
   $("#question").html(entry.question)
+  $("#current_chapter").css('visibility','visible');
+  $("#current_chapter").css('display','block');
+  $("#current_chapter").html("Chapter: "+entry.chapter)
   $([document.documentElement, document.body]).animate({
       scrollTop: $("#question").offset().top
   }, 0);
