@@ -1,9 +1,14 @@
 var done = new Set()
+var wrongQuestions = []
 var questions = []
 var chapters = []
 var selectedQuestions
 var neededCorrect = 0
 var correct = 0
+
+var reset = false
+
+var wrong = 0
 $(function(){
 
   $.getJSON( "questions.json", function(data) {
@@ -74,7 +79,23 @@ function newQuestion(){
     }
   }
   if (noNew) {
-      $("#answers").html('<h4>No more questions! Refresh to restart</h4>')
+      if (wrongQuestions.length>0){
+        $("#question").html('All questions completed!')
+        $("#answers").html('<h4>Now lets go over the ones you got wrong again..</h4>')
+        $("#multiple").css('display','none')
+        $("#current_chapter").css('display','none');
+        newSelect = []
+        for (var i=0; i<wrongQuestions.length; i++){
+          newSelect.push(selectedQuestions[wrongQuestions[i]])
+        }
+        selectedQuestions = newSelect
+        wrongQuestions = []
+        console.log(selectedQuestions)
+        done = new Set()
+        reset = true
+        return
+      }
+      $("#answers").html('<h4>You answered all the questions correctly! Refresh to restart</h4>')
       $("#question").html('All questions completed!')
       $("#next").css('visibility','hidden')
       $("#multiple").css('display','none')
@@ -101,6 +122,7 @@ function selectQuestion(rand){
     $("#multiple").css('display','none');
   }
   correct = 0;
+  wrong = 0;
   for (var i=0; i < entry.answers.length; i++){
     var ans = $("<h4></h4>");
     ans.html(entry.answers[i]);
@@ -110,6 +132,9 @@ function selectQuestion(rand){
         $(this).unbind("click");
         $( this ).css("background-color", "#00ff44");
         if (neededCorrect==correct){
+          if (wrong!=0){
+            wrongQuestions.push(rand)
+          }
           $("#next").css('visibility','visible')
           $([document.documentElement, document.body]).animate({
               scrollTop: $("#next").offset().top
@@ -119,6 +144,7 @@ function selectQuestion(rand){
     }
     else {
       ans.click(function(){
+        wrong++
         $( this ).css("background-color", "#ff4040");
       });
     }
