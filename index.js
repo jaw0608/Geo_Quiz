@@ -15,12 +15,14 @@ $(function(){
     }
     chapters.sort()
     for (var i=0; i<chapters.length; i++){
-      var box = $(`<input type="checkbox" value=${chapters[i]} name="Chap${chapters[i]}"> </input>`);
+      var box = $(`<input type="checkbox" class = "checkIn" value=${chapters[i]} name="Chap${chapters[i]}"> </input>`);
       var label = $(`<label for="Chap${chapters[i]}" class="checkbox"</label>`)
+      var div = $("<div class=\"checkboxdiv\"/>")
       label.html(chapters[i])
       box.html(chapters[i])
-      label.append(box);
-      $("#chapters").append(label);
+      div.append(label)
+      div.append(box);
+      $("#chapters").append(div);
     }
     console.log(questions);
   }).then(function(){

@@ -12,16 +12,25 @@ button {
 
 }
 
+#chapters {
+  display: block;
+
+}
+
+.checkboxdiv{
+  display: inline;
+}
+
 .checkbox {
   display: inline-block;
   vertical-align: top;
   position: relative;
   font-size: 1.5vmax;
+  text-align: center;
 }
 
-.checkbox input{
-  position: absolute;
-  left: 100%;
+.checkIn{
+  position: relative;
   top: 0;
   width: 1.5vmax;
   height: 1.5vmax;
@@ -71,7 +80,7 @@ h3 {
     font-size: 3vmax;
   }
 
-  .checkbox input{
+  .checkIn{
     width: 3vmax;
     height: 3vmax;
   }

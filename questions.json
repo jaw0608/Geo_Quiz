@@ -1,5 +1,4 @@
-[
-  {
+[{
     "question": "What is the Mass Number?",
     "answers": [
       "Sum of Electrons and Nuetrons",
@@ -39,7 +38,7 @@
       "Oxygen (O)",
       "Hydrogen (H)"
     ],
-    "correct": [0,2],
+    "correct": [0, 2],
     "chapter": "2"
   },
   {
@@ -107,7 +106,7 @@
       "Magmatic Particles",
       "Volcanic Ash"
     ],
-    "correct": [2,3],
+    "correct": [2, 3],
     "chapter": "2"
   },
 
@@ -120,16 +119,231 @@
     ],
     "correct": [2],
     "chapter": "2"
+  },
+  {
+    "question": "A type of metamorphic rock that results from the heating and compression of coal:",
+    "answers": ["a.   quartzite", "b.   marble", "c.   gneiss", "d.   anthracite", "e.  slate"],
+    "chapter": "Practice 1",
+    "correct": [3]
+  }, {
+    "question": "Isotopes of the same element have",
+    "answers": ["a.   different numbers of protons, but the same number of neutrons.", "b.   the same number of electrons, but different numbers of neutrons.", "c.   different numbers of neutrons, but the same number of protons.", "d.   different numbers of electrons, but the same number of neutrons.", "e.   different numbers of protons and neutrons."],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "States that sediment extends laterally in all directions until it thins and pinches out, or terminates,against the edge of the depositional basin:",
+    "answers": ["a.   principle of original horizontality", "b.   principle of superposition", "c.   principle of lateral continuity", "d.   principle of cross-cutting relationships", "e.   principle of uniformitarianism"],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "You are hiking in the mountains and you come across a cliff in which a vein of igneous rock is cuttingacross the layers of sedimentary rock in the area.  The igneous rock is ___________ than thesedimentary rock.",
+    "answers": ["a.   younger", "b.   older"],
+    "chapter": "Practice 1",
+    "correct": [0]
+  }, {
+    "question": "The oldest oceanic crust is slightly less than _________ years old.",
+    "answers": ["a.300,000", "b.4.6 billion", "c.70,000", "d.180 million", "e.3.96 billion"],
+    "chapter": "Practice 1",
+    "correct": [3]
+  }, {
+    "question": "The outer core is",
+    "answers": ["a.   solid.", "b.   liquid.", "c.   gas."],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "The half-life of carbon 14 is _________ years.",
+    "answers": ["a.5,730", "b.40,000", "c.4.5 billion", "d.48.8 billion", "e.704 million"],
+    "chapter": "Practice 1",
+    "correct": [0]
+  }, {
+    "question": "An explanation for some natural phenomenon that is testable and is supported by a large body ofevidence (e.g., plate tectonics):",
+    "answers": ["a.   hypothesis", "b.   scientific law", "c.   transgression", "d.   principle", "e.  theory"],
+    "chapter": "Practice 1",
+    "correct": [4]
+  }, {
+    "question": "A naturally occurring, inorganic, crystalline solid, having characteristic physical properties and anarrowly defined chemical composition:",
+    "answers": ["a.   rock", "b.   gem", "c.   mineral", "d.   glass", "e.  magma"],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "New oceanic crust is formed at",
+    "answers": ["a.   subduction zones.", "b.   transform faults.", "c.   meandering rivers.", "d.   glacial striations", "e.  mid-ocean ridges."],
+    "chapter": "Practice 1",
+    "correct": [4]
+  }, {
+    "question": "The number of protons in an atom's nucleus:",
+    "answers": ["a.   orogeny", "b.   atomic mass", "c.   atom", "d.   nucleus", "e.  atomic number"],
+    "chapter": "Practice 1",
+    "correct": [4]
+  }, {
+    "question": "The oceans are part of the Earth's",
+    "answers": ["a.   biosphere.", "b.   hydrosphere.", "c.   lithosphere.", "d.   mesosphere.", "e.  atmosphere."],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "After three half-lives, a radioactive element will have _________ of its original parent atoms.",
+    "answers": ["a.1/2", "b.1/6", "c.1/3", "d.1/8", "e.1/32"],
+    "chapter": "Practice 1",
+    "correct": [3]
+  }, {
+    "question": "The first fossil considered as evidence for the hypothesis of continental drift was",
+    "answers": ["a.   Glossaurus.", "b.   Pecopteris.", "c.   Neuropteris.", "d.   Glossopteris.", "e.  Messopteris."],
+    "chapter": "Practice 1",
+    "correct": [3]
+  }, {
+    "question": "Atoms of the same element with different numbers of neutrons in the nucleus:",
+    "answers": ["a.   ions", "b.   electrons", "c.   isotopes", "d.   neutrons", "e.  daughter products"],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "Localized (and commonly thought to be stationary) zone of melting below the lithosphere:",
+    "answers": ["a.   orogeny", "b.   hot spot", "c.   lava", "d.   ionic", "e.  strata"],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "Which of the following rock types can be metamorphosed?",
+    "answers": ["a.   igneous rocks", "b.   sedimentary rocks", "c.   metamorphic rocks", "d.   a and b", "e.  all of the above"],
+    "chapter": "Practice 1",
+    "correct": [4]
+  }, {
+    "question": "The sentence \"The Cretaceous Period ended 66 million years ago\" is an example of",
+    "answers": ["a.   absolute dating.", "b.   relative dating."],
+    "chapter": "Practice 1",
+    "correct": [0]
+  }, {
+    "question": "The Andes Mountains are associated with",
+    "answers": ["a.   a transform plate boundary.", "b.   a convergent plate boundary.", "c.  a divergent plate boundary."],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "A type of metamorphic rock that results from the recrystallization of limestone or dolostone:",
+    "answers": ["a.   quartzite", "b.   marble", "c.   gneiss", "d.   anthracite", "e.  slate"],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "The study of paleomagnetism is possible because",
+    "answers": ["a.   the magnetic minerals in rocks create Earth's magnetic field.", "b.   most rocks contain no magnetic minerals.", "c.   the magnetic minerals in rocks disrupt Earth's magnetic field.", "d.   the magnetic minerals align toward the north magnetic pole at the Curie Point.", "e.   none of the above"],
+    "chapter": "Practice 1",
+    "correct": [3]
+  }, {
+    "question": "A type of metamorphic rock that results from the recrystallization of quartz sandstone:",
+    "answers": ["a.   marble", "b.   slate", "c.   gneiss", "d.   anthracite", "e.  quartzite"],
+    "chapter": "Practice 1",
+    "correct": [4]
+  }, {
+    "question": "The Japan Trench represents",
+    "answers": ["a.   an oceanic-continental convergent plate margin.", "b.   an oceanic-oceanic convergent plate margin.", "c.   an oceanic divergent plate margin.", "d.   a continental divergent plate margin.", "e.   a continental-continental convergent plate margin."],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "The study of the origin and evolution of Earth, its continents, oceans, atmosphere, and life:",
+    "answers": ["a.   physical geology", "b.   scientific method", "c.   cosmology", "d.   historical geology", "e.  solar nebula"],
+    "chapter": "Practice 1",
+    "correct": [3]
+  }, {
+    "question": "Proposed the concept of natural selection:",
+    "answers": ["a.   Hutton", "b.   William Smith", "c.   Darwin", "d.   Werner", "e.  Wegener"],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "Geologists resolved the apparent polar wandering paradox by concluding that",
+    "answers": ["a.   each continent had its own magnetic pole during successive geological periods.", "b.   the magnetic poles for each continent had moved over geological time.", "c.   the magnetic poles have remained in one location and each of the continents hasmoved.", "d.   both the poles and the continents have moved over time.", "e.   none of the above"],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "The ocean crust is composed mostly of",
+    "answers": ["a.   granite.", "b.   peridotite.", "c.   basalt.", "d.   rhyolite.", "e.  gneiss."],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "Metamorphism taking place adjacent to a body of magma (a pluton) or beneath a lava flow from heatand chemically active fluids:",
+    "answers": ["a.   orogeny", "b.   contact metamorphism", "c.   burial metamorphism", "d.   nonconformity", "e.  regional metamorphism"],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "Any rock altered in the solid state from pre-existing rocks by any combination of heat, pressure, andchemically active fluids:",
+    "answers": ["a.   metamorphic rock", "b.   igneous rock", "c.  sedimentary rock"],
+    "chapter": "Practice 1",
+    "correct": [0]
+  }, {
+    "question": "Granite is an example of a coarse-grained _________ rock.",
+    "answers": ["a.   extrusive", "b.   intrusive"],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "The first person to suggest that all of the continents had originally been joined together as thesupercontinent Pangaea was",
+    "answers": ["a.   Alexander du Toit, 1937.", "b.   Frank Taylor, 1910.", "c.   Alfred Wegener, 1912.", "d.   Snider- Pelligrini, 1858.", "e.  Harry Hess, 1962."],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "Saturn is an example of a __________ planet.",
+    "answers": ["a.   terrestrial", "b.   Jovian"],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "An episode of mountain building involving deformation, usually accompanied by igneous activity,metamorphism, and crustal thickening:",
+    "answers": ["a.   stratigraphy", "b.   hot spot", "c.   bonding", "d.   Big Bang", "e.  orogeny"],
+    "chapter": "Practice 1",
+    "correct": [4]
+  }, {
+    "question": "You observe a dark colored igneous rock with very fine crystals that are only visible under magnification.What can you say about this rock?",
+    "answers": ["a.   It cooled slowly in a magma chamber.", "b.   It cooled quickly in a magma chamber.", "c.   It cooled slowly on Earth's surface.", "d.   It cooled quickly on Earth's surface.", "e.   It was ejected as a fine ash and later cemented together."],
+    "chapter": "Practice 1",
+    "correct": [3]
+  }, {
+    "question": "The principle asserting that processes operating in the present world can be used to interpret events ofthe past; the present is the key to the past:",
+    "answers": ["a.   catastrophism", "b.   uniformitarianism", "c.   lithification", "d.   unconformity", "e.  weathering"],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "Alfred Wegener's name for a Late Paleozoic supercontinent made up of most of Earth's landmasses:",
+    "answers": ["a.   stratum", "b.   Pangaea", "c.   Werner", "d.   transgression", "e.  Glossopteris"],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "Mars is an example of a _________ planet.",
+    "answers": ["a.   terrestrial", "b.   Jovian"],
+    "chapter": "Practice 1",
+    "correct": [0]
+  }, {
+    "question": "Part of the upper mantle that behaves as a plastic and flows:",
+    "answers": ["a.   lithosphere", "b.   asthenosphere", "c.   crust", "d.   atmosphere", "e.  core"],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "When an atom becomes positively charged, it is called a/an",
+    "answers": ["a.   electron.", "b.   neutron.", "c.   ion.", "d.   isotope.", "e.  positron."],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "The East African Rift is an example of a _________ plate boundary.",
+    "answers": ["a.   convergent", "b.   divergent", "c.   transform"],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "Assigning a specific date to a rock, which is measured in years before present, is known as",
+    "answers": ["a.   relative dating.", "b.   absolute dating.", "c.   superposition.", "d.   creationism.", "e.  catastrophism."],
+    "chapter": "Practice 1",
+    "correct": [1]
+  }, {
+    "question": "This unique group of plant fossils represents important evidence supporting plate tectonics.",
+    "answers": ["a.   Pangaea", "b.   Gondwana", "c.   Glossopteris flora", "d.   Cynognathus", "e.  Curie point"],
+    "chapter": "Practice 1",
+    "correct": [2]
+  }, {
+    "question": "This archbishop calculated the date of creation of the Earth based upon Old Testament genealogy:",
+    "answers": ["a.   James Ussher", "b.   Alfred Wegener", "c.   Charles Darwin", "d.   James Hutton", "e.  William Smith"],
+    "chapter": "Practice 1",
+    "correct": [0]
+  }, {
+    "question": "A mechanism accounting for differential survival and reproduction among members of a species; survivalof the fittest:",
+    "answers": ["a.   neptunism", "b.   stratigraphy", "c.   formation", "d.   natural selection", "e.  orogeny"],
+    "chapter": "Practice 1",
+    "correct": [3]
+  }, {
+    "question": "The Himalaya Mountains are an example of",
+    "answers": ["a.   an oceanic-continental convergent plate boundary.", "b.   a transform plate boundary.", "c.   an oceanic-oceanic divergent plate boundary.", "d.   a continental-continental convergent plate boundary."],
+    "chapter": "Practice 1",
+    "correct": [3]
   }
-
-
-
-
-
-
-
-
-
-
-
 ]
