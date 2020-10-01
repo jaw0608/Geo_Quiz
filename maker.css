@@ -1,0 +1,82 @@
+textarea {
+  resize: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.X{
+  background-color: red;
+  width: 3.0vmin;
+  height: 3.0vmin;
+  padding: 0;
+  font-size: 2vmin;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+  position: relative;
+  left:-3vmin;
+}
+
+.answerDivs {
+  display: block;
+  margin: 1.0vmin;
+  margin-bottom: 3vmin;
+}
+
+.answerbox {
+  vertical-align: middle;
+}
+
+body    {overflow-y:scroll;}
+
+.check {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#BigTitle {
+  font-size: 7vmin;
+}
+
+#container {
+  border:1vw solid purple;
+  margin: 0;
+  padding: 0;
+}
+
+#body {
+  padding: 0;
+  margin: 0;
+  width: 95vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-bottom: 1.5vw;
+}
+
+.JSONS {
+  display: inline-block;
+  margin: 2vmin;
+}
+
+#Last {
+  padding-bottom: 1vw;
+}
+
+#answerDiv {
+  display: block;
+}
+
+#addAns{
+  border: none;
+  margin: 0;
+  padding: 0.25vmax 0.25vmax;
+  font-size: 2vmax;
+  display: inline-block;
+}

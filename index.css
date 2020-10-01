@@ -8,8 +8,6 @@ button {
   display: inline-block;
   font-size: 4vmax;
   margin-top: 0.5vmax;
-
-
 }
 
 #chapters {
@@ -27,6 +25,8 @@ button {
   position: relative;
   font-size: 1.5vmax;
   text-align: center;
+  width: 2vmax;
+  height: 2vmax;
 }
 
 .checkIn{
