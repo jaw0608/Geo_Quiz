@@ -345,5 +345,81 @@
     "answers": ["a.   an oceanic-continental convergent plate boundary.", "b.   a transform plate boundary.", "c.   an oceanic-oceanic divergent plate boundary.", "d.   a continental-continental convergent plate boundary."],
     "chapter": "Practice 1",
     "correct": [3]
+  },
+  {
+    "question": "What rocks are best for deciphering the geologic record?",
+    "answers": ["Metamorphic", "Igneous", "Sedimentary"],
+    "correct": [2],
+    "chapter": "5"
+  }, {
+    "question": "_____ deals with study of any layered rock.",
+    "answers": ["Uniformitarianism", "Stratigraphy", "Intertonguing"],
+    "correct": [1],
+    "chapter": "5"
+  }, {
+    "question": "What does stratigraphy deal with?",
+    "answers": ["composition", "origin", "age relationships", "geographic extent"],
+    "correct": [0, 1, 2, 3],
+    "chapter": "5"
+  }, {
+    "question": "Surfaces known as _______ seperate individual strata from one another",
+    "answers": ["strata planes", "breaking planes", "bedding planes", "grade planes"],
+    "correct": [2],
+    "chapter": "5"
+  }, {
+    "question": "Rocks above and below bedding planes can differ in:  ",
+    "answers": ["composition", "color", "texture"],
+    "correct": [0, 1, 2],
+    "chapter": "5"
+  }, {
+    "question": "Superposition, the idea that you could determine relative ages of horizontal strata by their position in a sequences, was discovered by: ",
+    "answers": ["Charles Lyell", "Alfred Wegner", "Nicolas Steno", "Anthony Barringer"],
+    "correct": [2],
+    "chapter": "5"
+  }, {
+    "question": "_______ dictates that inclusions or fragments in rock are older than rock itself",
+    "answers": ["Principle of Superposition", "Principle of Inclusion", "Principle of Lateral Continuity", "Principle of Fragmentation"],
+    "correct": [1],
+    "chapter": "5"
+  }, {
+    "question": "What is true of buried lava flows?",
+    "answers": ["Rocks below (but not in direct contact with) the lava layer will show signs of heating", "Rocks above (but not in direct contact with) the lava layer will show signs of heating", "Rocks below (but not in direct contact with) the lava layer may have clasts from the lava flow"],
+    "correct": [0, 2],
+    "chapter": "5"
+  }, {
+    "question": "What is true of lava sills?",
+    "answers": ["Rocks below (but not in direct contact with) the lava layer will show signs of heating", "Rocks above (but not in direct contact with) the lava layer will show signs of heating", "Rocks below (but not in direct contact with) the lava layer may have clasts from the lava flow", "Sill might have inclusions of rocks directly above and below it", "Neither of the rocks will have inclusions of the sill"],
+    "correct": [0, 1, 3, 4],
+    "chapter": "5"
+  }, {
+    "question": "_______ in sequences of strata represent times of nondeposition and or erosion",
+    "answers": ["Conformities", "Unconformities"],
+    "correct": [1],
+    "chapter": "5"
+  }, {
+    "question": "Interval of time not represented by strata",
+    "answers": ["Unconformity", "Hiatus", "Lapse"],
+    "correct": [1],
+    "chapter": "5"
+  }, {
+    "question": "_______ is surface separating younger from older rocks, both of which are parallel to one another",
+    "answers": ["Disconformity", "Nonconformity", "Angular unconformity"],
+    "correct": [0],
+    "chapter": "5"
+  }, {
+    "question": "_________ is erosional surface cut into metamorphic or intrusive rocks and covered by sedimentary rocks",
+    "answers": ["Disconformity", "Nonconformity", "Angular unconformity"],
+    "correct": [1],
+    "chapter": "5"
+  }, {
+    "question": "_________ is erosional surface on tilted or folded strata over which younger rocks were deposited",
+    "answers": ["Disconformity", "Nonconformity", "Angular unconformity"],
+    "correct": [2],
+    "chapter": "5"
+  }, {
+    "question": "Layers of sediment extend outward in all directions until they terminate",
+    "answers": ["Principle of Horizontal Extension", "Principle of Lateral Continuity", "Principle of Superposition"],
+    "correct": [1],
+    "chapter": "5"
   }
 ]
