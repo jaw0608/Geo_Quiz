@@ -421,5 +421,56 @@
     "answers": ["Principle of Horizontal Extension", "Principle of Lateral Continuity", "Principle of Superposition"],
     "correct": [1],
     "chapter": "5"
+  },
+  {
+    "question": "___________ is body of sediment with distinctive physical, chemical, and/or biologicals attributes deposited side-by-side with other sediments in different environments. ",
+    "answers": ["Sedimentary facies", "Intertonguing", "lateral gradation"],
+    "correct": [0],
+    "chapter": "5"
+  }, {
+    "question": "When do marine transgressions occur?",
+    "answers": ["When sea level lowers with respect to land", "When sea level rises with respect to land"],
+    "correct": [1],
+    "chapter": "5"
+  }, {
+    "question": "During marine regression:",
+    "answers": ["sea level falls with respect to continent", "sea level rises with respect to continent", "environments parallel to shoreline migrate seaward"],
+    "correct": [0, 2],
+    "chapter": "5"
+  }, {
+    "question": "What recognized that same facies found laterally also represent a vertical sequences?",
+    "answers": ["Kepler's Law", "Walther's Law", "Principle of Lateral Facies", "Principle of Vertical Sequences"],
+    "correct": [1],
+    "chapter": "5"
+  }, {
+    "question": "What is a trace fossil?",
+    "answers": ["An entirely preserved animal fossil", "Indications of organic activity like footprints.", "A partially recovered fossil."],
+    "correct": [1],
+    "chapter": "5"
+  }, {
+    "question": "William Smith used ____ to compare the ages of rocks from two different localities.",
+    "answers": ["Radioactive dating (half-lives)", "Fossils", "Material composition"],
+    "correct": [1],
+    "chapter": "5"
+  }, {
+    "question": "_________ is rock content; __________ is fossil content",
+    "answers": ["lithostratigraphic unit; biostratigraphic unit", "biostratigraphic unit; lithostratigraphic unit"],
+    "correct": [0],
+    "chapter": "5"
+  }, {
+    "question": "What is the basic litostratigraphic element?",
+    "answers": ["Biozone", "Beds", "Formation", "Members"],
+    "correct": [2],
+    "chapter": "5"
+  }, {
+    "question": "What is the fundamental biostratigraphic unit?",
+    "answers": ["Biozone", "Beds", "Formation"],
+    "correct": [0],
+    "chapter": "5"
+  }, {
+    "question": "What is the correct order of Time Units?",
+    "answers": ["Eons,Epochs,Eras,Ages,Period", "Ages,Epochs,Periods,Eras,Eons", "Period,Ages,Eons,Epoches,Eras", "Era,Eon,Period,Epochs,Ages"],
+    "correct": [2],
+    "chapter": "5"
   }
 ]
